@@ -6,7 +6,7 @@ on:
       force:
         description: '强制部署（即使无更新）'
         required: false
-        default: 'false'
+        default: 'true'
 
 concurrency:
   group: sync-upstream
