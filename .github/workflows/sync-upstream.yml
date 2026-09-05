@@ -143,7 +143,6 @@ jobs:
           cp dist/quickjs.wasm pages-dist/quickjs.wasm
       - name: Upload artifact
         uses: actions/upload-artifact@v6
-        working-directory: sub-store-workers
         with:
           name: ssp
           path: pages-dist/*
